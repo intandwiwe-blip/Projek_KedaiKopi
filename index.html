@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kopi Senja</title>
+    
+    <!-- div class = untuk mempermudah di css, jadi cuma pake titik trus nama class nya-->
+
+    <!-- Fonts-->
+    >
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    />
+
+<!-- Feather Icons -->
+ <script src="https://unpkg.com/feather-icons"></script>
+
+<!-- My Style, hubungkan file index ke css-->
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+  <body>
+
+<!--Navbar Start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">KopI<span>ntan</span>.</a>
+
+
+<!--SUMBER TITIK DI CSS-->
+      <div class="navbar-nav">   
+        <a href="#home">Home</a> <!--a href= ini biar tombol navbar bisa di pencet-->
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">   
+      <a href="#" id="search"><i data-feather="search"></i></i></a>
+      <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></i></a>
+
+      </div>
+    </nav>
+     <!--Navbar End-->
+
+     <!-- Hero Section start-->
+      <section class="hero" id="home">
+        <main class="content">
+          <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+          <p>Whatever the problem, Coffe is the solution. <br> Jangan lupa ngopi bro!</p>
+          <a href="#" class="cta">Beli Sekarang</a>
+        </main>
+      </section>
+     <!-- Hero Section end-->
+
+     <!-- About section start -->
+     <section id="about" class="about">
+     <h2><span>Tentang</span> Kami</h2>
+
+     <div class="row"> <!--row untuk baris kesamping, flex untuk kebawah (tulisannya)-->
+      <div class="about-img">
+        <img src="img/tentang-kami.jpg" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>Kenapa harus memilih KopI<span>ntan</span>?</h3>
+        <p>
+1. Rasa kopi selalu konsisten & berkualitas<br>
+2. Harga ramah di kantong<br>
+3. Varian menu unik, dari klasik sampai kekinian<br>
+4. Setiap cangkir mendukung petani kopi lokal<br>
+5. Pelayanan hangat & bersahabat</p>
+<h4>"Secangkir kopi selalu memiliki cerita, <br> <span>Tergantung dengan siapa kita menikmati nya</span>"</h4>
+
+      </div>
+
+     </div>
+     </section>
+     <!-- About section end-->
+
+     <!-- Menu Section Start-->
+      <section id="menu" class="menu">
+        <h2><span>Menu</span> KopIntan</h2>
+        <h2><p>Jangan lupa di aduk ya!<br> Biar <span>manis</span> nya ga <span>di awal</span> aja.</p></h2>
+        
+        <div class="row">
+          <div class="menu-card">
+            <img src="img/menu/1.jpg" alt="Serenity Cappucino" class="menu-card-img"> 
+          <h3 class="menu-card-tittle">- Serenity Cappucino </h3>
+          <p class="menu-card-price">IDR 25k</p>
+
+            
+          </div>
+          <div class="menu-card">
+            <img src="img/menu/2.jpg" alt="Velour Espresso" class="menu-card-img"> 
+          <h3 class="menu-card-tittle">- Velour Espresso </h3>
+          <p class="menu-card-price">IDR 18.9k</p>
+
+            
+          </div>
+          <div class="menu-card">
+            <img src="img/menu/3.jpg" alt="Americano Royale" class="menu-card-img"> 
+          <h3 class="menu-card-tittle">- Americano Royale </h3>
+          <p class="menu-card-price">IDR 20.5k</p>
+
+            
+          </div>
+          <div class="menu-card">
+            <img src="img/menu/4.jpg" alt="Caramel Macchiato Luxe" class="menu-card-img"> 
+          <h3 class="menu-card-tittle">- Caramel Machiato Luxe </h3>
+          <p class="menu-card-price">IDR 25k</p>
+
+            
+          </div>
+          <div class="menu-card">
+            <img src="img/menu/5.jpg" alt="Matcha Creme Coffe" class="menu-card-img"> 
+          <h3 class="menu-card-tittle">- Matcha Creme Coffe </h3>
+          <p class="menu-card-price">IDR 28k</p>
+
+            
+          </div>
+          <div class="menu-card">
+            <img src="img/menu/6.jpg" alt="Frappe de KopIntan" class="menu-card-img"> 
+          <h3 class="menu-card-tittle">- Frappe de KopIntan </h3>
+          <p class="menu-card-price">IDR 34.5k</p>
+
+            
+          </div>
+        </div>
+
+      </section>
+     <!-- Menu Section End-->
+
+     <!-- Contact Section S tart -->
+      <section id="contact" class="contact">
+        <h2><span>Kontak</span> Kami </h2>
+        <h2><p>Kopi ini tercipta dari <span> pengalaman panjang</span>, <br> yuk bagikan kesan & saranmu 🤎</p></h2>
+        <div class="row">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.788903882912!2d114.3689246748233!3d-8.223971891808652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd15b9e09cf1639%3A0x9a114899891d90d2!2sLe%20Coin%20Cafe!5e0!3m2!1sid!2sid!4v1758757830363!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+          <form action="">
+            <div class="input-grup">
+              <i data-feather="user"></i>
+              <input type="text" 
+              placeholder="Nama"> 
+            </div>
+
+            <div class="input-grup">
+              <i data-feather="mail"></i>
+              <input type="text" 
+              placeholder="E-mail"> 
+            </div>
+
+            <div class="input-grup">
+              <i data-feather="phone"></i>
+              <input type="text" 
+              placeholder="Nomer Handphone"> 
+            </div>
+
+          </form>
+        </div>
+        
+      </section>
+     <!-- Contact Section End -->
+
+    <!-- Feather Icons -->
+     <script>
+      feather.replace();
+    </script>
+
+    <!--My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
